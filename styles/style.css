@@ -1,0 +1,595 @@
+* {
+    background-color: black;
+    margin: 0;
+}
+
+@font-face {
+  font-family: Miama;
+  src: url(/assets/Miama.ttf);
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+
+}
+
+/* navbar */
+
+.nav-logo h3 {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 36px;
+  color: #E6533C;
+}
+
+.nav-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 69%;
+  margin: 3rem auto;
+
+}
+
+.nav-elements {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+  border: 2px solid rgb(255, 255, 255, 10%);
+  border-radius: 5rem;
+  padding: 0.1rem 1.5rem 0.1rem 0.1rem;
+}
+
+.nav-elements p {
+  font-size: 18px;
+}
+
+.home {
+  background-color: #E6533C;
+  border: 0px solid rgb(255, 255, 255, 0%);
+  border-radius: 5rem;
+  padding: 0.5rem 1rem 0.5rem 1.15rem;
+  font-weight: 600;
+}
+
+/* banner */
+
+.ban-cont {
+  background-image: linear-gradient(180deg, black, rgba(255, 255, 255, 0.2), black);
+  background-color: transparent;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  width: 69%;
+  margin: 1rem auto;
+  gap: 5rem;
+  background-color: transparent;
+}
+
+.ban-text{
+  background-color: transparent;
+}
+
+.ban-text h1 {
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 100%;
+  background-color: transparent;
+}
+
+.ban-text h1 span {
+  font-family: Miama;
+  font-weight: 400;
+  font-size: 140px;
+  background-color: rgba(48, 48, 48, 0);
+}
+
+.ban-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  margin: 1rem auto;
+  background-color: transparent;
+}
+
+button {
+  color: white;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5rem;
+  margin: 14px 14px 0px 0px;
+  background-color: transparent;
+}
+
+.but-or {  
+  border: 1px solid #E6533C;
+  background-color: #E6533C;
+}
+
+.but-tr {
+  border: 1px solid white;
+}
+
+.ban-pic {
+  position: relative;
+  background-color: transparent;
+  text-align: center;
+}
+
+.ban-pic img {
+  background-color: transparent;
+}
+
+.vidt-cont {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  border: 1px solid rgb(255, 255, 255, 10%);
+  border-radius: 15px;
+  background-color: rgba(48, 48, 48, .54);
+}
+
+.vidt {
+  backdrop-filter: blur(5px);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: transparent;
+}
+
+.dot {
+  background-color: #E6533C;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 5rem;
+  display: inline-block;
+  justify-content: center;
+  margin-top: 0.6rem;
+  margin-right: 1rem;
+}
+
+.golla {
+  background-color: transparent;
+}
+
+.vidt-text {
+  background-color: transparent;
+}
+
+.vidt-text h4 {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: left;
+  background-color: transparent;
+}
+
+.vidt-text p {
+  color: rgba(255, 255, 255, 0.5);
+  font: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  text-align: left;
+  background-color: transparent;
+}
+
+.workv-cont {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  border: 1px solid rgb(255, 255, 255, 10%);
+  border-radius: 15px;
+  background-color: rgba(48, 48, 48, .54);
+}
+
+.workv {
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  backdrop-filter: blur(4px);
+  background-color: transparent;
+}
+
+.workv h4 {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: left;
+  background-color: transparent;
+}
+
+.workv p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  text-align: left;
+  background-color: transparent;
+}
+
+/* habits */
+
+.habits {
+  width: 69%;
+  text-align: center;
+  margin: 5rem auto;
+}
+
+/* h2 done later */
+
+.habits p {
+  font-size: 14;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 1rem auto;
+}
+
+.habits img {
+  border-radius: 180px;
+  width: 60%;
+}
+
+.habit-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 5rem auto;
+  overflow: hidden;
+}
+
+.habit-tit {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.habit-desc {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.3px;
+  line-height: 18px;
+}
+
+/* run */
+
+.run {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+h2 {
+  margin: 1rem auto;
+  font-size: 48px;
+  font-weight: 900;
+  background-color: transparent;
+}
+
+.run-cont p {
+  margin: 1rem auto;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.3px;
+  line-height: 18px;
+  background-color: transparent;
+}
+
+.run-cont {
+  width: 69%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.15);
+  overflow: hidden;
+  padding: 1rem 1rem;
+}
+
+.run-cont img {
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+.run-pic {
+  position: relative;
+  background-color: transparent;
+  text-align: end;
+}
+
+.but-run {  
+  border: 1px solid #E6533C;
+  background-color: #E6533C;
+  padding: 1rem 5rem;
+}
+
+.run-lekha{
+  padding: 1rem;
+  background-color: transparent;
+}
+
+/* trainers */
+
+.tra-cont {
+  width: 69%;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255, 10%);
+  border-radius: 15px;
+}
+
+.team-txt {
+  width: 69%;
+  margin: 3rem auto 0rem auto;
+  text-align: center;
+}
+
+.row-1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem 0;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.tra-card {
+  position: relative;
+  text-align: center;
+  border-radius: 15px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.tra-txt {
+  position: absolute;
+  text-align: left;
+  top: 75%;
+  left: 10%;
+  background-color: transparent;
+}
+
+.tra-tit {
+  font-size: 20px;
+  font-weight: 900;
+  background-color: transparent;
+}
+
+.tra-pos {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+}
+
+.tra-cont img {
+  width: 100%;
+  height: 300px;
+  max-width: 100%;
+  border-radius: 15px;
+  box-sizing: border-box;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem 0;
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+/* footer */
+
+.footer-cont h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: #E6533C;
+  font-style: italic;
+}
+
+.footer-cont {
+  background-color: rgba(255, 255, 255, 10%);
+}
+
+.foots {
+  width: 69%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  background-color: transparent;
+  margin: 1rem auto;
+  padding: 5rem 1rem;
+  gap: 3rem;
+}
+
+.foot1 {
+  background-color: transparent;
+}
+.foot2 {
+  background-color: transparent;
+}
+.foot3 {
+  background-color: transparent;
+}
+
+.foots h1, p, h4{
+  background-color: transparent;
+}
+
+.foot1 p {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.foots h4 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 39px;
+}
+
+.foot2 p {
+  font-size: 23px;
+  color: rgb(255, 255, 255, 0.5);
+  line-height: 150%;
+}
+
+.foot3 p {
+  font-size: 23px;
+  color: rgb(255, 255, 255, 0.5);
+  line-height: 150%;
+}
+
+.lastline {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 2rem auto;
+  width: 69%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 23px;
+}
+
+hr {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hamb {
+  display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 576px) {
+  .nav-cont {
+    width: 90%;
+  }
+  .nav-elements {
+    display: none;
+  }
+  .hamb {
+    display: block;
+    font-size: x-large;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 1rem auto;
+    gap: 5rem;
+    background-color: transparent;
+  }
+
+  .ban-text h1 {
+    font-size: 36px;
+  }
+
+  .ban-text h1 span {
+    font-size: 72px;
+  }
+
+  .ban-text p {
+    font-size: 16px;
+  }
+  button {
+    color: white;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5rem;
+    margin: 14px 14px 0px 0px;
+    background-color: transparent;
+  }
+  .habits {
+    width: 90%;
+  }
+  .habit-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 5rem auto;
+    overflow: hidden;
+  }
+  .run-cont {
+    width: 90%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.15);
+    overflow: hidden;
+    padding: 1rem 1rem;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .row-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  .row-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    background-color: transparent;
+  }
+  .footer-cont h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  .foots {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: transparent;
+    margin: 1rem auto;
+    padding: 5rem 1rem;
+    gap: 3rem;
+  }
+  .foots h4 {
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .foot1 p, .foot2 p, .foot3 p {
+    text-align: left;
+    font-size: 20px;
+  }
+  .lastline {
+    font-size: 20px;
+  }
+}
