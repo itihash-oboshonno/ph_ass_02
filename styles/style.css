@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: Miama;
-  src: url(./assets/Miama.ttf);
+  src: url(/styles/fonts/Miama.ttf);
 }
 
 .inter {
@@ -399,7 +399,9 @@ input, select {
   border: 0px solid transparent;
 }
 
-
+.act-fact {
+  grid-column: span 2;
+}
 
 
 
