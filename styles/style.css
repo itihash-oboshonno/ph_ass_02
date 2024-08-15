@@ -343,7 +343,7 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
   padding: 3rem 3rem;
   width: 69%;
-  margin: auto;
+  margin: 1rem auto;
 }
 
 .calcnchar h3 {
@@ -491,6 +491,7 @@ input, select {
 
 .footer-cont {
   background-color: rgba(255, 255, 255, 10%);
+  margin-top: 2rem;
 }
 
 .foots {
@@ -546,8 +547,6 @@ input, select {
 
 .lastline {
   background-color: transparent;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
   margin: 2rem auto;
   width: 69%;
   text-align: center;
@@ -633,6 +632,40 @@ hr {
   h2 {
     font-size: 36px;
   }
+
+  .cc-bg {
+    
+  }
+  .calc {
+    margin: 3rem 2.5rem 1rem 0;
+  }
+
+  .calcnchar {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 3rem;
+    width: 90%;
+    margin: 1rem auto;
+  }
+
+  .calc-inp {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    grid-auto-flow: row;
+  }
+
+  input, select {
+    padding: 1rem;
+    font-size: 16px;
+    font-family: Inter;
+    background-color: rgb(255, 255, 255, 10%);
+    color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    border: 0px solid transparent;
+  }
+  
+
   .row-1 {
     display: flex;
     flex-direction: column;
@@ -659,7 +692,7 @@ hr {
     width: 90%;
     display: flex;
     flex-direction: column;
-    text-align: left;
+    align-items: start;
     background-color: transparent;
     margin: 1rem auto;
     padding: 5rem 1rem;
@@ -670,7 +703,13 @@ hr {
     font-size: 28px;
     margin-bottom: 20px;
   }
-  .foot1 p, .foot2 p, .foot3 p {
+
+  .foot1 p {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .foot2 p, .foot3 p {
     text-align: left;
     font-size: 20px;
   }
