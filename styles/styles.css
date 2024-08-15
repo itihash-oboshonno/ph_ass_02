@@ -322,14 +322,86 @@ h2 {
 
 /* bmi */
 
-th, td {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+.bmi-tit {
+  text-align: center;
+  width: 69%;
+  margin: 1rem auto;
+}
+
+.bmi-tit p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 2rem;
+}
+
+.cc-bg {
+  background-color: rgba(255, 255, 255, 10%);
+}
+
+.calcnchar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem 3rem;
+  width: 69%;
+  margin: auto;
+}
+
+.calcnchar h3 {
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.chart, .chart p, table, tbody, th, td, tr, .calc, .calc-inp, .calcnchar {
+  background-color: transparent;
+}
+
+.chart th {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+table {
   border-collapse: collapse;
 }
 
-td {
-  color: rgba(255, 255, 255, 0.5);
+th, td {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 15px 30px;
 }
+
+td, .calc p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+}
+
+.calc p {
+  margin-bottom: 1rem;
+}
+
+.calc-inp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto, auto;
+  gap: 0.5rem;
+  grid-auto-flow: row;
+  margin: 1rem 0;
+}
+
+input, select {
+  padding: 1rem;
+  font-size: 16px;
+  font-family: Inter;
+  background-color: rgb(255, 255, 255, 10%);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  border: 0px solid transparent;
+}
+
+
+
+
 
 /* trainers */
 
