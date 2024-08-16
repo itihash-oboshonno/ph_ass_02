@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Miama';
-  src: url('/styles/fonts/Miama.ttf');
+  src: url('./styles/fonts/Miama.ttf');
 }
 
 .inter {
@@ -88,7 +88,7 @@
   font-family: 'Miama';
   font-weight: 400;
   font-size: 140px;
-  background-color: rgba(48, 48, 48, 0);
+  background-color: transparent;
 }
 
 .ban-text p {
