@@ -7,6 +7,12 @@
   font-family: "Grey Qo", cursive;
   font-weight: 400;
   font-style: normal;
+  background-color: transparent;
+}
+
+span {
+  background-color: transparent;
+  font-size: 100px;
 }
 
 .inter {
@@ -832,5 +838,9 @@ hr {
   
   .but-sub {
     padding: 10px 1rem;
+  }
+
+  span {
+    font-size: 80px;
   }
 }
