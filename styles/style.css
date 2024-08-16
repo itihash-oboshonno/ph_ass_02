@@ -3,9 +3,10 @@
     margin: 0;
 }
 
-@font-face {
-  font-family: 'Miama';
-  src: url('./styles/fonts/Miama.ttf');
+.grey-qo {
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .inter {
@@ -81,13 +82,6 @@
   font-size: 78px;
   font-weight: 900;
   line-height: 100%;
-  background-color: transparent;
-}
-
-.ban-text h1 span {
-  font-family: 'Miama';
-  font-weight: 400;
-  font-size: 140px;
   background-color: transparent;
 }
 
@@ -221,7 +215,7 @@ button {
 .habits {
   width: 69%;
   text-align: center;
-  margin: 5rem auto;
+  margin: 5rem auto 1rem auto;
 }
 
 /* h2 done later */
@@ -231,6 +225,7 @@ button {
   line-height: 24px;
   letter-spacing: 0.3px;
   margin: 1rem auto;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .habits img {
@@ -242,7 +237,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
-  margin: 5rem auto;
+  margin: 5rem auto 1rem auto;
   overflow: hidden;
 }
 
@@ -283,7 +278,7 @@ h2 {
 
 .run-cont {
   width: 69%;
-  margin: 3rem auto;
+  margin: 1rem auto 2rem auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -415,6 +410,7 @@ input, select {
 
 .calc button {
   width: 50%;
+  text-align: center;
 }
 
 
@@ -580,6 +576,42 @@ hr {
 .hamb {
   display: none;
 }
+
+/* subscribe */
+.sub {
+  width: 69%;
+  margin: 3rem auto;
+}
+
+.sub h2 {
+  text-align: center;
+}
+
+.sub p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.sub-inp {
+  background-color: rgba(255, 255, 255, 10%);
+  padding: 1rem;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 2rem;
+}
+
+.but-sub {
+  background-color: #E6533C;
+  border: 0px solid transparent;
+  margin: 0px;
+}
+
+
 
 /* responsive */
 
@@ -786,5 +818,19 @@ hr {
   }
   .lastline {
     font-size: 20px;
+  }
+
+  .sub {
+    width: 90%;
+    margin: 3rem auto;
+    overflow: hidden;
+  }
+  
+  .sub-inp {
+    overflow: hidden;
+  }
+  
+  .but-sub {
+    padding: 10px 1rem;
   }
 }
